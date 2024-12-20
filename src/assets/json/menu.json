@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "title": "常用网站",
+        "key": "el-icon-setting"
+    },
+    {
+        "id": "2",
+        "title": "用户管理",
+        "key": "el-icon-user"
+    },
+    {
+        "id": "3",
+        "title": "AL网站",
+        "key": "el-icon-s-custom"
+    },
+    {
+        "id": "4",
+        "title": "写作管理",
+        "key": "el-icon-menu"
+    },
+    {
+        "id": "5",
+        "title": "部门管理",
+        "key": "el-icon-office-building"
+    },
+    {
+        "id": "6",
+        "title": "字典管理",
+        "key": "el-icon-s-order"
+    } 
+]

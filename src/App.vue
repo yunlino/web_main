@@ -12,7 +12,7 @@
       <div class="tag">
         <div class="tag-item" v-for="(web,index) in webs" :key="index"> 
           <div class="tag-item-content">
-             <img :src="'/images/'+web.icon" alt=""/>
+             <img :src="'./assets/images/'+web.icon" alt=""/>
           </div>
           <div class="tag-item-title">{{web.name}}</div>
         </div>
@@ -42,7 +42,7 @@ const webs=ref<NavigationItem[]>([])
 
 const init = async () => {
   try {
-    const response = await fetch("/json/menu.json");
+    const response = await fetch("./assets/json/menu.json");
     if (!response.ok) {
       throw new Error("Failed to fetch navigation data");
     }
@@ -56,7 +56,7 @@ const init = async () => {
 
 const get_web_tag=async (id:string)=>{
   try {
-    const response = await fetch("/json/webs.json");
+    const response = await fetch("./assets/json/webs.json");
     if (!response.ok) {
       throw new Error("Failed to fetch navigation data");
     }
